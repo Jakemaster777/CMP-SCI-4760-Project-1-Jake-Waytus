@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 {
 
     int x;
+    int i;
     int proc = 0;
     int simul = 0;
     int iter = 0;
@@ -50,7 +51,7 @@ int main(int argc, char *argv[])
 
     sprintf(iter_string, "%d", iter);
 
-    for (int i = 0; i < proc; i++)
+    for (i = 0; i < proc; i++)
     {
 
         if ((pid = fork()) == 0)
