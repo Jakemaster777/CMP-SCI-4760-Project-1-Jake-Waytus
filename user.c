@@ -7,7 +7,7 @@
 int main(int argc, char **argv[])
 {
 
-    int i;
+    int x;
     int num;
 
     pid_t pid;
