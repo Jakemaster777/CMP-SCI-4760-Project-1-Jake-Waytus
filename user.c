@@ -28,7 +28,7 @@ int main(int argc, char **argv[])
     for (x = 0; x < num; x++)
     {
 
-        printf("USER PID:  PPID: %d Iteration: %d before sleeping \n", pid, ppid, x+1);
+        printf("USER PID: %d PPID: %d Iteration: %d before sleeping \n",pid, ppid, x+1);
 
         sleep(1);
 
